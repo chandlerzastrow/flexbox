@@ -1,6 +1,7 @@
 body{
-	//background-color: yellow;
-
+	background: url('../img/parchment.jpg') fixed no-repeat;
+	background-size: cover;
+	
 }
 main{
 	// display:flex;
@@ -26,6 +27,14 @@ main{
 	justify-content: center;
 }
 
+.column-contain{
+	display:flex;
+	justify-content: space-around;
+}
+.fact{
+	width: 30%;
+}
+
 
 /*section{
 	width:30%;
@@ -41,6 +50,11 @@ h1{
 	margin-right: 20px;
 	align-items: center;
 	justify-content: center;
+	font-family: cursive;
+}
+
+h2{
+	font-family: cursive;
 }
 
 
