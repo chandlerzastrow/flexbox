@@ -15,7 +15,7 @@ main{
 
 }
 .flex-item1{
-	max-width:80%;
+	max-width:50%;
 	//align-self: flex-start;
 	align-items: center;
 	justify-content: center;
@@ -38,6 +38,9 @@ main{
 	width: 30%;
 }
 
+h3{
+	font-weight: bold;
+}
 
 /*section{
 	width:30%;
@@ -56,12 +59,16 @@ h1{
 	font-family: "Chelsea Market" , cursive;
 	font-style: bold;
 	font-size: 2.4em;
+	max-width: 50%;
+	text-align: center;
 }
-
 h2{
+	text-align: center;
+}
+h2, h3{
 	font-family: "Chelsea Market" , cursive;
 	font-size: 1.5em;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -83,6 +90,9 @@ p{
 	width:100%;
 	
 
+}
+.flex-item1{
+	max-width: 80%;
 }
 img{
 	max-width: 70%;
